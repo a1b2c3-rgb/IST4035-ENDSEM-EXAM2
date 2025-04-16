@@ -1,0 +1,111 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+/* Faculty Cards Layout */
+.faculty-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.faculty-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  max-width: 300px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.faculty-card:hover {
+  background-color: #f0f8ff;
+}
+
+.faculty-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.faculty-card h2 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.faculty-card .title {
+  color: #555;
+  font-style: italic;
+}
+
+.faculty-card a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.faculty-card a:hover {
+  text-decoration: underline;
+}
+
+/* Tags Styling */
+.tags {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: center;
+}
+
+.tags span {
+  background-color: #e1ecf4;
+  color: #0366d6;
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .faculty-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .faculty-card {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .faculty-card h2 {
+    font-size: 1.1rem;
+  }
+}
