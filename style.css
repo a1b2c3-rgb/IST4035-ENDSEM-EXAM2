@@ -2,15 +2,15 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: green;
-  color: red;
+  background-color: aliceblue;
+  color: black;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: black;
-  color: #fff;
+  background-color: navy;
+  color: white;
   padding: 1.5rem;
   text-align: center;
 }
@@ -33,7 +33,7 @@ main {
 }
 
 .faculty-card {
-  background-color: blue;
+  background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem;
@@ -43,7 +43,7 @@ main {
 }
 
 .faculty-card:hover {
-  background-color: #f0f8ff;
+  background-color: lightcyan;
 }
 
 .faculty-card img {
@@ -57,15 +57,16 @@ main {
 .faculty-card h2 {
   font-size: 1.25rem;
   margin: 0.5rem 0;
+  color: darkblue;
 }
 
 .faculty-card .title {
-  color: #555;
+  color: dimgray;
   font-style: italic;
 }
 
 .faculty-card a {
-  color: #0077cc;
+  color: royalblue;
   text-decoration: none;
 }
 
@@ -83,8 +84,8 @@ main {
 }
 
 .tags span {
-  background-color: #e1ecf4;
-  color: #0366d6;
+  background-color: lightsteelblue;
+  color: black;
   padding: 0.3rem 0.6rem;
   border-radius: 12px;
   font-size: 0.85rem;
